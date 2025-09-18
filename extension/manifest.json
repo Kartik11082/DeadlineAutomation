@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "HTML Sender",
+    "version": "1.0",
+    "description": "Sends full page HTML to a Python backend for processing.",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:5000/*"
+    ],
+    "action": {
+        "default_title": "Send HTML"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}

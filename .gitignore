@@ -1,0 +1,15 @@
+# Python virtual environment
+/server/venv/
+*.pyc
+__pycache__/
+
+# Google API credentials
+/server/credentials.json
+/server/token.json
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
